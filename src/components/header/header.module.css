@@ -1,0 +1,11 @@
+.headerClass {
+  height: 100px;
+  background-color: #E8E4F2;
+  display: flex;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.595);
+}
+
+.mainText {
+  margin: auto;
+  font-weight: normal;
+}
