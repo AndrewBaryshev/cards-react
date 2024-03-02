@@ -9,7 +9,7 @@ export const CardComponent: FC<ICardComponent> = ({ data, image, id }) => {
 
   return (
     <div className={styles.container}>
-      <img className={styles.imgClass} src={image.urls.small} />
+      <img className={styles.imgClass} src={image} />
       <div className={styles.info}>
         <div className={styles.price}>
           <label className={styles.currentPrice}>1700</label>

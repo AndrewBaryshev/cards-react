@@ -1,5 +1,5 @@
 export interface ICardComponent {
   data: string
-  image: any
+  image: string
   id: number
 }

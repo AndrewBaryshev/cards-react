@@ -1,9 +1,10 @@
 import { makeAutoObservable } from "mobx"
 import { getData } from "../utils/getData"
+import { IElem } from "../components/cards-page/type"
 
 class FetchData {
-  data: any = []
-  images: any = []
+  data: Array<IElem> = []
+  images: Array<any> = []
   constructor() {
     makeAutoObservable(this)
   }

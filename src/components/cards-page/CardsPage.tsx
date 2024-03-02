@@ -23,7 +23,7 @@ export const CardsPage = observer(() => {
           <CardComponent
             key={elem.id}
             data={elem.title}
-            image={fetchData.images[elem.id - 1]}
+            image={fetchData.images[elem.id - 1].urls.small}
             id={elem.id}
           />
         ))
