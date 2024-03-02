@@ -23,7 +23,7 @@
 }
 
 .currentPrice {
-  font-size: 14px;
+  font-size: 16px;
   color: red;
 }
 
@@ -39,7 +39,6 @@
 }
 
 .description {
-  height: 35px;
   font-size: 14px;
   color: gray;
 }
@@ -80,4 +79,21 @@
   cursor: pointer;
   background-color: #2174c2;
 }
+
+.likesNumber {
+  color: gray;
+  margin-left: 4px;
+}
+
+.likesNumber:hover {
+  cursor: pointer;
+}
+
+.likesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 0;
+}
+
 

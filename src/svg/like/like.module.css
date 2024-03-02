@@ -1,0 +1,6 @@
+.like:hover {
+  path {
+    fill: red;
+  }
+  cursor: pointer;
+}
